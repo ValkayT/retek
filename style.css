@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #ECBB48;
+    background-color: #FFD700;
     color: #333;
     display: flex;
     justify-content: center;
@@ -65,7 +65,7 @@ h1 {
 }
 
 .primary {
-    background-color: #007bff;
+    background-color: #FFD700;
     color: white;
 }
 
