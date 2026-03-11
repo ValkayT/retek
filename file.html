@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Basic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        main {
+            padding: 2em;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 0.7em 1.5em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 0.5em;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website</h1>
+        <p>A simple site built with HTML & CSS</p>
+    </header>
+
+    <main>
+        <h2>About This Site</h2>
+        <p>This is a simple demo page that includes text, images, and buttons — great for testing on GitHub Pages!</p>
+
+        <img src="https://via.placeholder.com/600x300" alt="Example image" />
+
+        <h3>Try the Buttons</h3>
+        <button onclick="alert('Hello there!')">Say Hello</button>
+        <button onclick="window.location.href='https://github.com/'">Visit GitHub</button>
+    </main>
+
+    <footer>
+        <p>© 2024 My GitHub Website</p>
+    </footer>
+</body>
+</html>
