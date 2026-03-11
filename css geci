@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My GitHub Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-img">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p class="subtitle">Developer | Creator | Explorer</p>
+        </header>
+
+        <section class="content">
+            <p>Welcome to my GitHub-hosted website! This is a simple project showcasing how to combine HTML and CSS into a clean layout.</p>
+        </section>
+
+        <div class="button-group">
+            <a href="https://github.com" class="btn primary">View My Projects</a>
+            <a href="mailto:example@email.com" class="btn secondary">Contact Me</a>
+        </div>
+    </div>
+
+</body>
+</html>
+2. The Style (style.css)
+This file makes it look professional. It uses a "Flexbox" layout to keep everything centered and neat.
+
+CSS
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+/* Image Styling */
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #007bff;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #666;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+/* Button Styling */
+.button-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 1.5rem;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #0056b3;
+}
+
+.secondary {
+    background-color: #eee;
+    color: #333;
+}
+
+.secondary:hover {
+    background-color: #ddd;
+}
