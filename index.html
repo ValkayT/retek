@@ -1,69 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Basic Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #FFD700;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-        }
-        main {
-            padding: 2em;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 8px;
-        }
-        button {
-            background-color: #007bff;
-            color: white;
-            border: none;
-            padding: 0.7em 1.5em;
-            border-radius: 5px;
-            cursor: pointer;
-            margin: 0.5em;
-        }
-        button:hover {
-            background-color: #0056b3;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            padding: 1em;
-            margin-top: 2em;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Golden Pint | Craft Brewery</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <header>
-        <h1>Welcome to My Website</h1>
-        <p>A simple site built with HTML & CSS</p>
+        <div class="logo">🍺 The Golden Pint</div>
+        <nav>
+            <ul>
+                <li><a href="#">Our Brews</a></li>
+                <li><a href="#">Taproom</a></li>
+                <li><a href="#">History</a></li>
+            </ul>
+        </nav>
+        <button class="cta-button">Order Now</button>
     </header>
 
-    <main>
-        <h2>About This Site</h2>
-        <p>This is a simple demo page that includes text, images, and buttons — great for testing on GitHub Pages!</p>
-
-        <img src="https://via.placeholder.com/600x300" alt="Example image" />
-
-        <h3>Try the Buttons</h3>
-        <button onclick="alert('Allah Akbar!')">Say Hello</button>
-        <button onclick="window.location.href='https://github.com/'">Visit GitHub</button>
-    </main>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Cold Hops, Warm Hearts.</h1>
+            <p>Discover our award-winning selection of IPAs, Stouts, and Lagers brewed right in the heart of the city.</p>
+            <div class="hero-buttons">
+                <button class="btn-primary">View Menu</button>
+                <button class="btn-secondary">Book a Table</button>
+            </div>
+        </div>
+    </section>
 
     <footer>
-        <p>© 2024 My GitHub Website</p>
+        <div class="footer-grid">
+            <div class="footer-section">
+                <h3>Visit Us</h3>
+                <p>123 Barley Lane, Hoptown</p>
+            </div>
+            <div class="footer-section">
+                <h3>Hours</h3>
+                <p>Mon-Sun: 12pm - 11pm</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2026 The Golden Pint Brewery. Please drink responsibly.
+        </div>
     </footer>
+
 </body>
 </html>
