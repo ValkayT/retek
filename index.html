@@ -3,49 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Graphic Design Portfolio</title>
+    <title>Artist Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <div class="logo">STUDIO_NAME</div>
-        <nav>
-            <a href="#">Work</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
+    <header class="site-header">
+        <div class="logo">T</div>
+        <nav class="nav-links">
+            <a href="#">Contacts</a>
+            <a href="#">About Me</a>
+            <div class="social-icons">
+                <span>f</span>
+                <span>i</span>
+                <span>x</span>
+            </div>
         </nav>
     </header>
 
-    <main class="gallery">
-        <div class="gallery-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Eugene_Delacroix_-_Horse_Frightened_by_Lightning_-_Google_Art_Project.jpg/500px-Eugene_Delacroix_-_Horse_Frightened_by_Lightning_-_Google_Art_Project.jpg" alt="Design Project 1">
-            <div class="overlay">
-                <span>Branding / 2026</span>
+    <main class="gallery-grid">
+        <div class="grid-item large clickable">
+            <img src="https://picsum.photos/800/800?random=1" alt="Artwork">
+        </div>
+
+        <div class="sub-grid">
+            <div class="grid-item clickable">
+                <img src="https://picsum.photos/400/500?random=2" alt="Artwork">
+            </div>
+            <div class="grid-item clickable">
+                <img src="https://picsum.photos/400/500?random=3" alt="Artwork">
+            </div>
+            <div class="grid-item clickable">
+                <img src="https://picsum.photos/400/500?random=4" alt="Artwork">
             </div>
         </div>
 
-        <div class="gallery-item">
-            <img src="dffghjk.png" alt="Design Project 2">
-            <div class="overlay">
-                <span>Typography / 2026</span>
-            </div>
+        <div class="grid-item medium clickable">
+            <img src="https://picsum.photos/600/400?random=5" alt="Artwork">
         </div>
-
-        <div class="gallery-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/The_Nightmare_%281790-1791%29_-_Johann_Heinrich_Füssli.jpg/960px-The_Nightmare_%281790-1791%29_-_Johann_Heinrich_Füssli.jpg" alt="Design Project 3">
-            <div class="overlay">
-                <span>Poster Art</span>
-            </div>
+        <div class="grid-item text-block">
+            <h3>Garamond</h3>
+            <p>Experimental typography and digital textures exploring the intersection of classical serif forms and modern glitch art.</p>
         </div>
-        
-        <div class="gallery-item">
-            <img src="https://picsum.photos/800/1200?random=4" alt="Design Project 4">
-            <div class="overlay">
-                <span>UI/UX Design</span>
-            </div>
+        <div class="grid-item pattern-block clickable">
+            <img src="https://picsum.photos/400/400?random=6" alt="Artwork">
         </div>
     </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Artist Portfolio | Built with Style</p>
+    </footer>
 
 </body>
 </html>
